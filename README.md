@@ -32,14 +32,10 @@ Under the project folder install the dependencies:
 
     $ source venv/bin/activate
     (venv)$ pip install -r requirements.txt
-Requirements:
 
-Python3
-venv
-pip
-Create testing user
+<h4>Create testing user</h4>
 Running the next command, a form will be prompt to set user credentials for basic authentication:
 
-    (venv) backend$ python createsuperuser
+    (venv) backend$ python manage.py createsuperuser
 Run project
     (venv) backend$ python manage.py runserver
