@@ -35,7 +35,9 @@ Under the project folder install the dependencies:
 
 <h4>Create testing user</h4>
 Running the next command, a form will be prompt to set user credentials for basic authentication:
+Then run project
 
-    (venv) backend$ python manage.py createsuperuser
-Run project
-    (venv) backend$ python manage.py runserver
+    (venv)$ python manage.py createsuperuser
+
+    (venv)$ python manage.py runserver
+
