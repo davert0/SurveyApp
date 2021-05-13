@@ -27,7 +27,7 @@ Run the next commands to run docker and start the project:
 Api documentation is under http://127.0.0.1:8000/swagger or http://127.0.0.1:8000/redoc
 
 <h3> Without Docker </h3>
-Set environment
+Set environment <br>
 Under the project folder install the dependencies:
 
     $ source venv/bin/activate
