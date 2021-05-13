@@ -14,7 +14,8 @@ Cпроектировать и разработать API для системы 
 - получение пройденных пользователем опросов с детализацией по ответам (что выбрано) по ID уникальному пользователя
 <h2> Run project </h2>
 Clone repo by:
-
+ docker-compose build
+docker-compose up
 git clone https://github.com/davert0/SurveyApp.git
 
 Run the next commands to run docker and start the project:
