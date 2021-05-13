@@ -17,6 +17,8 @@ Clone repo by:
 
 git clone https://github.com/davert0/SurveyApp.git
 
+<h3> With Docker </h3>
+
 Run the next commands to run docker and start the project:
 
     docker-compose build
