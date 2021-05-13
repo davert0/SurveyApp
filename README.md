@@ -25,3 +25,21 @@ Run the next commands to run docker and start the project:
     docker-compose up
 
 Api documentation is under http://127.0.0.1:8000/swagger or http://127.0.0.1:8000/redoc
+
+<h3> Without Docker </h3>
+Set environment
+Under the project folder install the dependencies:
+
+    $ source venv/bin/activate
+    (venv)$ pip install -r requirements.txt
+Requirements:
+
+Python3
+venv
+pip
+Create testing user
+Running the next command, a form will be prompt to set user credentials for basic authentication:
+
+    (venv) backend$ python createsuperuser
+Run project
+    (venv) backend$ python manage.py runserver
